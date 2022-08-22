@@ -22,17 +22,21 @@ class MainActivity : AppCompatActivity() {
         scoreText = findViewById(R.id.sum)
     }
 
+
+    // Function that makes random dice come from 1 to 6 
     fun roll(view:View){
         var dice1Score = Random.nextInt(6) + 1
         var dice2Score = Random.nextInt(6) + 1
 
         changeDice(dice1Score,dice1)
         changeDice(dice2Score,dice2)
+
         var sum = dice1Score + dice2Score
         scoreText.setText("The sum is " + sum)
 
     }
 
+    // Change dice image function according to random number
     fun changeDice(randomInt:Int, diceImg:ImageView){
         val src = when(randomInt){
             1 -> R.drawable.ic_dice1
