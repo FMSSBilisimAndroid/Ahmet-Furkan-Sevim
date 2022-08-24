@@ -17,5 +17,4 @@ Eğer namespace silinirse hiçbir özellik kullanılamaz.
 
 - xmlns:app isim alanı, uygulama kapsamında tanımlanan özel niteliklere erişmek için kullanılır.
 
-- xmlns:tools yalnızca geliştirme aşamasında çalışır, geliştiricilere yardımcı olacak bir araç olarak düşünebiliriz. Sadece geliştirme aşamasında çalışır.
-Bir uygulama paketlendiğinde, tüm araç özellikleri atılır!
+- xmlns:tools yalnızca geliştirme aşamasında çalışır, geliştiricilere yardımcı olacak bir araç olarak düşünebiliriz. Sadece geliştirme aşamasında çalışır. Bir uygulama paketlendiğinde, tüm araç özellikleri atılır!
